@@ -1,5 +1,7 @@
 'use strict';
 
+function AppController () {}
+
 /**
  * @ngdoc overview
  * @name angular14App
@@ -22,4 +24,3 @@ AppController. $routeConfig = [
   {path: '/', component: 'main'},
   {path: '/about', component: 'about'},
 ];
-function AppController ($router) {};
